@@ -1,6 +1,6 @@
 # TinyBasic Plus (RUS)
 
-Данный репозиторий является русскоязычной адаптацией библиотеки ["Tiny Basic Plus"](https://github.com/BleuLlama/TinyBasicPlus), созданной Скоттом Лоуренсом. В рамках проекта были также внесены несколько изменений, таких как добавление поддержки клавиатуры PS/2 и улучшение читаемости кода. Для реализации поддержки клавиатуры PS/2 использовалась библиотека ["PS2KeyAdvanced"](https://github.com/techpaul/PS2KeyAdvanced) Пола Карпентера. 
+Данный репозиторий является русскоязычной адаптацией библиотеки [Tiny Basic Plus](https://github.com/BleuLlama/TinyBasicPlus), созданной Скоттом Лоуренсом. В рамках проекта были также внесены несколько изменений, таких как добавление поддержки клавиатуры PS/2 и улучшение читаемости кода. Для реализации поддержки клавиатуры PS/2 использовалась библиотека [PS2KeyAdvanced](https://github.com/techpaul/PS2KeyAdvanced) *Пола Карпентера*. 
 
 Реализация Tiny Basic на языке C с акцентом на поддержку Arduino. Изначально она была написана Гордоном Брандли в виде "68000 Tiny Basic", а затем портирована на C Майклом Филдом как "Arduino Basic", хотя в исходных файлах она по-прежнему называется "Tiny Basic".
 
@@ -62,8 +62,8 @@ TinyBasic Plus является расширением и модификацие
 
 ## Управление вводом-выводом
 
-- DELAY *timems*- wait (in milliseconds)*
-- DWRITE *pin,value* - *set pin with a value (HIGH,HI,LOW,LO)*
-- AWRITE *pin,value* - *set pin with analog value (pwm) 0..255*
-- DREAD(*pin*) - *get the value of the pin*
-- AREAD(*analogPin*) - *get the value of the analog pin*
+- DELAY *timems* - ожидание (в миллисекундах)*
+- DWRITE *pin,value* - *установить значение цифрового пина (HIGH, HI, LOW, LO)*
+- AWRITE *pin,value* - *установить значение аналогового пина (pwm) 0..255*
+- DREAD(*pin*) - *чтение значения с цифрового пина*
+- AREAD(*analogPin*) - *чтение значения с аналогового пина*
